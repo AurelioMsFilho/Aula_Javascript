@@ -1,20 +1,33 @@
 
 
+function Clicou(){
+   //alert("Obrigado por clicar");
+   document.getElementById("Agradecimento").innerHTML= "<b> Obrigado por clicar</b>" ;
+  //console.log(document.getElementById("Agradecimento"));
+}
+function redirecionar(){
+   window.open("https://www.jw.org/pt/");
+    //window.location.href="https://www.jw.org/pt/";
 
-
-
-
-
+}
+function trocar (){
+    document.getElementById("mousemove").innerHTML= "Obrigado por passar o mouse";
+    //alert("trocar texto" );
+}
+function voltar (){
+    document.getElementById("mousemove").innerHTML= "passe o mouse aqui";
+}
+/*
 function soma(n1,n2){
     return n1 + n2;
 }
 function setReplace(frase, nome, novo_nome){
-    return fraase.replace(nome, novo_nome)
+    return frase.replace(nome, novo_nome)
 }
 alert (soma(5, 10));
 
 alert(setReplace( "vai Japão", "Japão", "Brasil"));
-
+*/
 /*var d= new Date();
 alert (d);
 alert(d.getMonth()+1);
